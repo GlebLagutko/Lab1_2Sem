@@ -20,10 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{B1371274-81DA-4B83-A671-46EE21F91E4E}</ProjectGuid>
-    <RootNamespace>Lab12Sem</RootNamespace>
+    <ProjectGuid>{CB3DFC81-2213-4A3A-B037-6EB58155FAA1}</ProjectGuid>
+    <RootNamespace>Task2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
-    <ProjectName>Task1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -116,11 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Student.cpp" />
-    <ClCompile Include="Task1.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Student.h" />
+    <ClCompile Include="Task2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
